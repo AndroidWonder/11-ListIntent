@@ -1,7 +1,6 @@
 package com.course.example.listintent;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -45,11 +44,6 @@ public class ListIntentActivity extends Activity implements AdapterView.OnItemCl
 				Uri uri = Uri.parse("geo:0,0?q=175+forest+street+waltham+ma");
 				Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 
-				/*For API18 and 19 Google Maps is not on Launch Pad
-             	 so should first check if Package is present to avoid app crashing.
-             	 The API 23 emulator using the Intel instruction set would also crash here
-             	 without first checking.
-            	*/
 				if (intent.resolveActivity(getPackageManager()) != null) {
 					startActivity(intent);
 				}
