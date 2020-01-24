@@ -9,8 +9,9 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     android:gravity="center"
-    android:textColor="#ffff0000"
-    android:textSize="18sp"
+    android:textColor="#ff0000ff"
+    android:layout_marginBottom="10dip"
+    android:textSize="28sp"
     />
     <ListView 
     android:id="@+id/list"
