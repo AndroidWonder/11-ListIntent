@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/11-ListIntent.iml" filepath="$PROJECT_DIR$/11-ListIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/11-ListIntent.iml" filepath="$PROJECT_DIR$/.idea/modules/11-ListIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-ListIntent.app.main.iml" />
